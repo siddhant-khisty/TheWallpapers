@@ -1,5 +1,5 @@
 # Wallpapers
-### Preview:
+## Preview:
 
 
 <p font-size="1.5em" align="center"><img width="75%" src="https://raw.githubusercontent.com/perseus01/wallpapers/main/0001.jpg" alt="0001"><br>0001</p>
