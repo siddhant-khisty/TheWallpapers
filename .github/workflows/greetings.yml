@@ -13,4 +13,4 @@ jobs:
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         issue-message: "Message that will be displayed on users' first issue"
-        pr-message: "🎉 Congrdulations ! you made your first Pull request to this repository"
+        pr-message: "🎉Congratulations ! you made your first Pull request to this repository"
