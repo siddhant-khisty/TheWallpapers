@@ -1,16 +1,14 @@
-name: Monorepo PR Repo Labeler
-
-on: pull_request
+name: PR Labeler
+on:
+  pull_request:
+    types: [opened]
 
 jobs:
-  labelPR:
-    name: Label PR With Repo(s)
+  pr-labeler:
     runs-on: ubuntu-latest
     steps:
-      - name: newWallpapers
-        uses: tinkurlab/monorepo-pr-labeler-action@master
+      - uses: TimonVS/pr-labeler-action@v3
+        with:
+          configuration-path: .github/workflows/label.yml  
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        
-           
-         
