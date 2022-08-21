@@ -12,3 +12,6 @@ jobs:
           configuration-path: .github/workflows/label.yml  
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+            newWallpaper: wallpapers/*
+
