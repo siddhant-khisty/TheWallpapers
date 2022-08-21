@@ -11,7 +11,7 @@ jobs:
         uses: tinkurlab/monorepo-pr-labeler-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BASE_DIRS: 'wallpapers' 
+          
         with:
           prefix: 'newWallppaer' # optional
            
