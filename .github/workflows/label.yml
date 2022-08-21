@@ -8,10 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: TimonVS/pr-labeler-action@v3
-        with:
-          configuration-path: .github/workflows/label.yml  
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
-            newWallpaper: wallpapers/*
+            
 
