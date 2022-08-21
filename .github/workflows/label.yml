@@ -1,0 +1,18 @@
+name: Monorepo PR Repo Labeler
+
+on: pull_request
+
+jobs:
+  labelPR:
+    name: Label PR With Repo(s)
+    runs-on: ubuntu-latest
+    steps:
+      - name: newWallpapers
+        uses: tinkurlab/monorepo-pr-labeler-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BASE_DIRS: 'wallpapers' 
+        with:
+          prefix: 'sample_prefix' # optional
+          suffix: 'sample_suffix' # optional
+         
