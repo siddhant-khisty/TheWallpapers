@@ -13,6 +13,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BASE_DIRS: 'wallpapers' 
         with:
-          prefix: 'sample_prefix' # optional
-          suffix: 'sample_suffix' # optional
+          prefix: 'newWallppaer' # optional
+           
          
