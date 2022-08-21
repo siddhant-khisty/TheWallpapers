@@ -20,7 +20,7 @@ git clone https://github.com/abhaytaras7/wallpapers.git && sudo cp /wallpapers  
 ```
 - Windows
 ```
-Do whatever you want 
+Just add it your /wallpapers directory 
 ```
 
  
