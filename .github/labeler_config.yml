@@ -1,6 +1,6 @@
 version: 1
 labels:
-  - label: "newWallpaper"
+  - label: "newWallpapers"
     files:
       - "wallpapers/.*"
       
