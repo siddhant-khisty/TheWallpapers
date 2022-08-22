@@ -2,7 +2,7 @@ version: 1
 labels:
   - label: "newWallpapers"
     files:
-      - "wallpapers/.*"
+      - "wallpapers*"
       
   - label: "enhancement"
     files:
