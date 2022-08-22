@@ -1,6 +1,6 @@
 # This is cool Desktop wallpapers  directory  🙂
 
-- **I'm Penetration Tester,and as my profession requires, I work with many operation system and $userenv.Finding a good wallpaper is burdensome.Many of us have gone through same. So I decided to take this problem seriously and rest is history.**
+- **I'm Penetration Tester & as my profession requires, I work with many operation system and $userenv.Finding a good wallpaper is burdensome.Many of us have gone through same. So I decided to take this problem seriously and rest is history.**
 
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/abhaytaras7/wallpapers?color=gold&logo=lol&logoColor=pink)
@@ -21,9 +21,6 @@ git clone https://github.com/abhaytaras7/wallpapers.git && sudo cp /wallpapers  
 ```
 Just add it your /wallpapers directory 
 ```
-
- 
-
 
 ---
 
