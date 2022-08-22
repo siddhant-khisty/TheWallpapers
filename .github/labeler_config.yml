@@ -10,5 +10,5 @@ labels:
       
   - label: "readme_update"
     files:
-      - "README.MD*"
+      - "README.md*"
        
