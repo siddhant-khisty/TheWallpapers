@@ -1,7 +1,8 @@
 version: 1
 labels:
   - label: "newWallpapers"
-    - wallpapers/**/*
+     files:
+      - "/wallpapers/.*"
       
   - label: "enhancement"
     files:
@@ -13,7 +14,11 @@ labels:
     
   - label: "CONTRIBUTION_update"
     files:
-      - "CONTRIBUTION.md*"
+      - "CONTRIBUTION.md"
+      
+  - label: "CCC"
+    files:
+      - "fh1.c"
       
       
     
