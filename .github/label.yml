@@ -1,0 +1,8 @@
+version: 1
+labels:
+  - label: "newWallpaper"
+    title: ".*"
+  - label: "TestFileMatch"
+    files: 
+      - "wallpapers/*"
+  
