@@ -1,8 +1,7 @@
 version: 1
 labels:
   - label: "newWallpapers"
-    files:
-      - "wallpapers"
+    any: ['wallpapaers/*']
       
   - label: "enhancement"
     files:
@@ -11,4 +10,11 @@ labels:
   - label: "readme_update"
     files:
       - "README.md*"
+    
+  - label: "CONTRIBUTION_update"
+    files:
+      - "CONTRIBUTION.md*"
+      
+      
+    
        
