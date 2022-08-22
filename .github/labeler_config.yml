@@ -1,7 +1,7 @@
 version: 1
 labels:
   - label: "newWallpapers"
-    any: ['wallpapaers/*']
+    - wallpapers/**/*
       
   - label: "enhancement"
     files:
