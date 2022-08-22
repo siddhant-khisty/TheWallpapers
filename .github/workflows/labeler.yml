@@ -1,6 +1,0 @@
-version: 1
-labels:
-- label: "newWallpapers"
-  title: "^new wallpaper:.*"
-- label: "WIP"
-  mergeable: false
