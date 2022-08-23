@@ -2,7 +2,10 @@ version: 1
 labels:
   - label: "anime-additions"
     files:
-      - "wallpapers/anime-wallpapers/**"
+      - "wallpapers/anime-wallpapers/.*.png"
+      - "wallpapers/anime-wallpapers/.*.jpeg"
+      - "wallpapers/anime-wallpapers/.*.jpg"
+    
 
   - label: "enhancement"
     files:
