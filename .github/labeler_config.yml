@@ -3,6 +3,7 @@ labels:
   - label: "anime-additions"
     files:
       - "wallpapers/anime-wallpapers"
+      
   - label: "nature-additions"
     files:
       - "wallpapers/nature-wallpapers"
