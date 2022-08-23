@@ -6,13 +6,13 @@ labels:
 
   - label: "nature-additions"
     files:
-      - "wallpapers/nature-wallpapers"
+      - "wallpapers/Nature/.*"
 
   - label: "random-additions"
-    files:  "wallpapers/random/"
+    files:  "wallpapers/random/.*"
 
   - label: "illustration-additions"
-    files: "TheWallpapers/wallpapers/illustrations"
+    files: "TheWallpapers/wallpapers/illustrations/.*"
 
   - label: "enhancement"
     files:
