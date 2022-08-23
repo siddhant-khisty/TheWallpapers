@@ -2,17 +2,19 @@ version: 1
 labels:
   - label: "anime-additions"
     files:
-      - "wallpapers/anime-wallpapers/"
+      - "**/anime-wallpapers/**"
 
   - label: "nature-additions"
     files:
-      - "wallpapers/Nature/.*"
+      - "**/Nature/**"
 
   - label: "random-additions"
-    files:  "wallpapers/random/.*"
+    file:
+      - "**/random/**"
 
   - label: "illustration-additions"
-    files: "TheWallpapers/wallpapers/illustrations/.*"
+    files:
+      - "**/illustration/**"
 
   - label: "enhancement"
     files:
