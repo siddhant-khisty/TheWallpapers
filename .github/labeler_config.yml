@@ -2,7 +2,7 @@ version: 1
 labels:
   - label: "anime-additions"
     files:
-      - "wallpapers/.*"
+      - "/wallpapers/.*"
 
   - label: "nature-additions"
     files:
