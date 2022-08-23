@@ -2,23 +2,23 @@ version: 1
 labels:
   - label: "anime-additions"
     files:
-      - '**/anime-wallpapers/**'
+      - "**/anime-wallpapers/**"
 
   - label: "nature-additions"
     files:
-      - '**/Nature/**'
-
+      - "**/Nature/**"
+      
   - label: "random-additions"
     file:
-      - '**/random/**'
+      - "**/random/**"
 
   - label: "illustration-additions"
     files:
-      - '**/illustrations/**'
+      - "**/illustrations/**"
 
   - label: "enhancement"
     files:
-      - '.github/.* '
+      - ".github/.* "
 
   - label: "readme_update"
     files:
