@@ -1,23 +1,26 @@
 version: 1
 labels:
-  - label: "newWallpapers"
+  - label: "anime-additions"
     files:
-      - "wallpapers/.*"
-      
+      - "/TheWallpapers/wallpapers/anime-wallpapers"
+  - label: "nature-additions"
+    files:
+      - "/TheWallpapers/wallpapers/nature-wallpapers"
+
+  - label: "random-additions"
+    files:  "./theWallpapers/wallpapers/random"
+
+  - label: "illustration-additions"
+    files: "/TheWallpapers/wallpapers/illustration"
+
   - label: "enhancement"
     files:
       - ".github/.*"
-      
+
   - label: "readme_update"
     files:
       - "README.md*"
-    
+
   - label: "CONTRIBUTION_update"
     files:
       - "CONTRIBUTION.md"
-      
-   
-      
-      
-    
-       
