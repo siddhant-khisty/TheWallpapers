@@ -4,18 +4,6 @@ labels:
     files:
       - "**/anime-wallpapers/**"
 
-  - label: "nature-additions"
-    files:
-      - "**/Nature/**"
-      
-  - label: "random-additions"
-    file:
-      - "**/random/**"
-
-  - label: "illustration-additions"
-    files:
-      - "**/illustrations/**"
-
   - label: "enhancement"
     files:
       - ".github/.*"
