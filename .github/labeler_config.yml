@@ -22,8 +22,8 @@ labels:
 
   - label: "readme_update"
     files:
-      - '**/README.md'
+      - 'README.md'
 
   - label: "CONTRIBUTION_update"
     files:
-      - '**/CONTRIBUTION.md'
+      - 'CONTRIBUTION.md'
