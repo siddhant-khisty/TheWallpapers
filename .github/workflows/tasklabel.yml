@@ -8,17 +8,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: netlify/pr-labeler-action@v1.0.0
-        if: startsWith(github.event.pull_request.title, 'fix')
+        if: startsWith(github.event.pull_request.title, 'duplicate , same ')
         with:
           token: '${{ secrets.GITHUB_TOKEN }}'
-          label: 'type: bug'
+          label: 'duplicate'
+          
       - uses: netlify/pr-labeler-action@v1.0.0
-        if: startsWith(github.event.pull_request.title, 'chore')
+        if: startsWith(github.event.pull_request.title, 'nature , added in nature')
         with:
           token: '${{ secrets.GITHUB_TOKEN }}'
-          label: 'type: chore'
+          label: 'nature-addition'
+          
       - uses: netlify/pr-labeler-action@v1.0.0
         if: startsWith(github.event.pull_request.title, 'anime')
         with:
           token: '${{ secrets.GITHUB_TOKEN }}'
-          label: 'type: anime-addition'
+          label: 'anime-addition'
