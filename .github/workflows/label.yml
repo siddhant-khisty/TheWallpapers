@@ -1,10 +1,13 @@
 name: "Pull Request Labeler"
+env : 
+  WD: "./wallpapers"
 on:
   - pull_request
 
 jobs:
   label:
     runs-on: ubuntu-latest
+    
     steps:
 
        
@@ -13,3 +16,4 @@ jobs:
           config_path: .github/labeler_config.yml
         env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+          
