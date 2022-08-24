@@ -1,6 +1,4 @@
 name: "Pull Request Labeler"
-env : 
-  WD: "./wallpapers"
 on:
   - pull_request
 
