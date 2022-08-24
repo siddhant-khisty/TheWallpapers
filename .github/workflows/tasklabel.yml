@@ -8,13 +8,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: netlify/pr-labeler-action@v1.0.0
-        if: startsWith(github.event.pull_request.title, 'duplicate , same ')
+        if: startsWith(github.event.pull_request.title, 'duplicate')
         with:
           token: '${{ secrets.GITHUB_TOKEN }}'
           label: 'duplicate'
           
       - uses: netlify/pr-labeler-action@v1.0.0
-        if: startsWith(github.event.pull_request.title, 'nature , added in nature')
+        if: startsWith(github.event.pull_request.title, 'nature')
         with:
           token: '${{ secrets.GITHUB_TOKEN }}'
           label: 'nature-addition'
@@ -24,3 +24,11 @@ jobs:
         with:
           token: '${{ secrets.GITHUB_TOKEN }}'
           label: 'anime-addition'
+      - uses: netlify/pr-labeler-action@v1.0.0
+        if: startsWith(github.event.pull_request.title, 'illustration')
+        with:
+          token: '${{ secrets.GITHUB_TOKEN }}'
+          label: 'illustration-addition'
+      
+      
+      
